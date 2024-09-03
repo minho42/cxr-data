@@ -20,8 +20,7 @@
    <!-- image names changed from png to jpg -->
    ```
 
-5. 1024x1024 png images from `all_images/` that exists in `data2.csv` ignoring the extension of the image files are resized to 512x512 jpg images with `resize_images.py` into `resized_images/`.
+5. make `db.sqlite3` form `data2.csv` with `csv_to_sqlite.py`
+6. 1024x1024 png images from `all_images/` that exists in `data2.csv` ignoring the extension of the image files are resized to 512x512 jpg images with `resize_images.py` into `resized_images/`.
 
    > ⚠︎ this takes very long time e.g. 783s
-
-6.
