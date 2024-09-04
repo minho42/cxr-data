@@ -2,9 +2,9 @@
 
 ## steps
 
-1. Download data from: [www.kaggle.com/datasets/nih-chest-xrays](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
+1. Download data from: [nihcc](https://nihcc.app.box.com/v/ChestXray-NIHCC) or [kaggle](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
 2. All images from sub directory of images are copied into `all_images/` folder with `copy_images.py`.
-3. change csv file name to `data.csv`
+3. change csv file name from `Data_Entry_2017_v2020.csv` to `data.csv`
 4. make a simpler `data2.csv` with `simplify_csv.py`: remove columns, rename columns, ignore "No Finding" in "Finding Labels"
 
    ```csv
